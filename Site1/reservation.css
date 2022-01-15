@@ -1,0 +1,131 @@
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+body {
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    background-color: #f3f3fe;
+    color: #2c3345;
+}
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), not all;
+
+
+.header-large .form-header {
+    font-size: 2em;}
+.form-header {
+     color: #2c3345;
+     word-break: break-word;
+     margin: 0;
+    font-weight: 600;
+    line-height: 1.45;}
+    .form-line {
+        margin-top: 12px;
+        margin-bottom:12px;
+        flex-wrap: wrap;}
+        .form-line {
+            padding: 12px;
+        
+         
+        
+        
+            margin: 12px;
+        
+      
+            border-radius: 3px;
+        
+            position: relative;
+            width: 100%;
+            transition: background-color .15s;}
+            body {
+                font-family: Inter,sans-serif;
+                font-size: 16px;
+                background-color: #478ac9;
+                color: #2c3345;
+            }
+
+}                       
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.bigdiv{display:flex;
+    width:100%;
+    height: 1000px;}
+    .divleft{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;}
+    .div_right{
+        width: 285 px;
+        height:1210 px;
+        background-color: brown;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+      #BODY2 {
+            height: 100%;
+            font-size: 16px;
+            line-height: 1.5;
+            font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+          
+          
+       
+            overflow: hidden;
+            background-image: 
+              linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
+              linear-gradient(#222, #000);
+            background-size: .75em 100%, 100% 100%;
+            background-attachment: fixed;
+          
+          }
+          
+          .wrapper {
+            position: relative;
+            flex-grow: 1;
+            margin: auto;
+            max-width: 1200px;
+            max-height: 1200px;
+            
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-gap: 2vmin;
+            justify-items: center;
+            align-items: center;
+            margin-top: 100px;
+          }
+          
+          .IMG2 {
+            z-index: 1;
+            grid-column: span 2;
+            max-width: 100%;
+            margin-bottom: -52%;
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            transform: scale(1);
+            transition: all .25s;}
+            
+            .IMG2:nth-child(7n + 1) {
+              grid-column: 2 / span 2;
+            }
+            
+            
+            .IMG2:hover {
+              z-index: 2;
+              transform: scale(2);
+            }
+          
+          
